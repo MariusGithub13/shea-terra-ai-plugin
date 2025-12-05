@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Shea Terra Organics",
+  "name_for_model": "shea_terra_organics",
+  "description_for_human": "Discover premium organic skincare, haircare, and body products from Shea Terra Organics.",
+  "description_for_model": "Use this plugin to browse and search for organic skincare, haircare, and body products from Shea Terra Organics. You can retrieve product information including names, descriptions, prices, and categories.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://shea-terra-ai-plugin.netlify.app/openapi.yaml"
+  },
+  "logo_url": "https://shea-terra-ai-plugin.netlify.app/logo.png",
+  "contact_email": "support@sheaterra.com",
+  "legal_info_url": "https://sheaterra.com/pages/terms-of-service"
+}
