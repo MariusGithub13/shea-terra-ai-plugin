@@ -7,11 +7,12 @@
   "auth": {
     "type": "none"
   },
- "api": {
-  "type": "openapi",
-  "url": "https://sheaterra.devaland.com/openapi.yaml"
-},
-"logo_url": "https://sheaterra.devaland.com/logo.png",
-  "contact_email": "customerservice@sheaterra.com",
+  "api": {
+    "type": "openapi",
+    "url": "https://sheaterra.devaland.com/openapi.yaml"
+  },
+  "logo_url": "https://sheaterra.devaland.com/logo.png",
+  "contact_email": "tammie@sheaterra.com",
+  "support_email": "customerservice@sheaterra.com",
   "legal_info_url": "https://www.sheaterraorganics.com/pages/privacy-policy"
 }
