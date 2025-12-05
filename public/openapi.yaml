@@ -9,6 +9,9 @@ paths:
   /products:
     get:
       summary: Get all products
+      operationId: getAllProducts
+      tags:
+        - Products
       responses:
         "200":
           description: A list of Shea Terra products
@@ -21,9 +24,14 @@ paths:
                   properties:
                     id:
                       type: string
+                      example: "123"
                     title:
                       type: string
+                      example: "African Black Soap"
                     price:
                       type: number
+                      example: 19.99
                     image:
                       type: string
+                      format: uri
+                      example: "https://www.sheaterraorganics.com/cdn/shop/products/sample.jpg"
