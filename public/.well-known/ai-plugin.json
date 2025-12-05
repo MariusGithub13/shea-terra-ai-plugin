@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Shea Terra Store Plugin",
+  "name_for_model": "sheaTerraProducts",
+  "description_for_human": "Shop Shea Terra Organics skincare products via LLMs.",
+  "description_for_model": "Plugin for accessing Shea Terra Organics product data for shopping, reviews, and recommendations.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://shea-terra-ai-plugin.netlify.app/openapi.yaml"
+  },
+  "logo_url": "https://shea-terra-ai-plugin.netlify.app/logo.png",
+  "contact_email": "support@sheaterraorganics.com",
+  "legal_info_url": "https://www.sheaterraorganics.com/pages/privacy-policy"
+}
